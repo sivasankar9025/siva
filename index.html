@@ -1,0 +1,1773 @@
+<html>
+<head>
+<style>
+h1 {text-align: center;}
+h2 {text-align: center;}
+
+p {text-align: center;}
+div {text-align: left;}
+
+p {
+  font-size: 12px; /* Change the font size to 18 pixels */
+}
+    </style>
+</head>
+
+
+<body>
+    <center>
+    <img src="https://kongunaducollege.ac.in/sites/kongunaducollege.ac.in/files/KASC_logo.png" align=center width=50 height=55"Description" class="left-corner">
+</center>
+</body>
+</html>
+
+
+
+
+<center>
+    <h4 style="color:darkblue ;"> KONGUNADU ARTS AND SCIENCE COLLEGE </h4>
+  <p><b>(AUTONOMOUS)</b></p>
+ <p>Re-accredited by NAAC with A+ Grade - 4th cycle, College of Excellence - UGC</p>
+   <p>Coimbatore - 641 029, Tamil Nadu, India</p>
+</center>
+</body>
+<hr>
+
+
+<style>
+body 
+{
+  background-image: url('https://i.pinimg.com/originals/6f/2f/61/6f2f6184c310ef3081994081a4fe762b.jpg');
+  background-repeat: no-repeat;
+ 
+  background-size: 100% 100%;
+}
+</style>
+
+
+<body>
+   <marquee><font size="7"> <h style="color:darkblue ;">WELCOME TO  DEPARTMENT OF PSYCHOLOGY</h></font></marquee>
+
+
+<hr>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="radio"] {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+
+button {
+    background-color:#0055bd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.back-button {
+    margin-right: auto;
+}
+
+.next-button {
+    background-color:  #0e8d00;
+    margin-left: auto;
+    
+}
+
+.sumit-button {
+    background-color: #7d0101;
+    
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .navigation-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .next-button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+
+#result {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Specific styles for each part */
+#personalDetails table {
+    border: 2px solid #4CAF50;
+}
+
+#personalDetails th, #personalDetails td {
+    background-color: #e8f5e9;
+}
+
+#part2Results table {
+    border: 2px solid #ff9800;
+}
+
+#part2Results th, #part2Results td {
+    background-color: #fff3e0;
+}
+
+#part3Results table {
+    border: 2px solid #2196F3;
+}
+
+#part3Results th, #part3Results td {
+    background-color: #e3f2fd;
+}
+
+/* Additional styling for the result page */
+#result h3 {
+    color: #333;
+    margin-top: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+</style>
+<body>
+    <form id="quizForm">
+        <!-- Part 1: Personal Details -->
+        <div id="part1">
+            <p> Note: To complete, read each sentence carefully and choose the appropriate option which suits you the most. There is no right or wrong answers and be honest with your response.</p>
+             
+                      <h3><center>PERSONAL DETAILS</center></h3>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="registerNo">Register No:</label>
+            <input type="text" id="registerNo" name="registerNo" required><br>
+
+<label for="gender">Select the Gender:</label>
+<br>
+        <select id="gender" name="gender" required><br><br>
+            <option value="">--Select gender--</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+<br><br>
+
+
+<label for="graduate">Are you a first graduate in your family?</label><br>
+        <select id="graduate" name="graduate" required><br><br>
+            <option value="">--Select graduate--</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+     
+        </select>
+<br><br>
+
+
+<label for="Percentage scored in 12th standard (HSC)">Percentage scored in 12th standard (HSC):</label><br>
+            <input type="number" id="hsc" name="hsc" required><br><br>
+
+<label for="myambition">My ambition in life is to become a/an:</label><br>
+        <select id="myambition" name="myambition" required><br><br>
+            <option value="">--Select ambition--</option>
+            <option value="Entrepreneur (Start a own business)">Entrepreneur (Start a own business)</option>
+            <option value="Family business">Family business</option>
+            <option value="Government Job">Government Job </option>
+           <option value="Private Job">Private Job</option>
+          <option value="No idea">No idea</option>
+        </select>
+<br><br>
+<label for="department">Select Your Deptment</label><br>
+        <select id="department" name="department" required><br><br>
+<option value="">--Select department--</option>
+            <option value="BA English Literature">BA English Literature</option>
+            <option value="BSc Mathematics">BSc Mathematics</option>
+            <option value="BSc Biotechnology">BSc Biotechnology</option>
+           <option value="BSc Computer Science">BSc Computer Science</option>
+          <option value="BCA">BCA</option>
+            <option value="BSc Information Technology">BSc Information Technology</option>
+            <option value="BSc Computer Technology">BSc Computer Technology</option>
+            <option value="BBA">BBA</option>
+           <option value="BBA CA">BBA CA</option>
+          <option value="BCom">BCom</option>
+            <option value="BCom Professional Accounting">BCom Professional Accounting</option>
+            <option value="BCom CA">BCom CA</option>
+            <option value="BSc Costume Design and Fashion">BSc Costume Design and Fashion</option>
+           <option value="B.Com Banking and Insurance">B.Com Banking and Insurance</option>
+          <option value="B.Voc Entrepreneurship and Garment Designing">B.Voc Entrepreneurship and Garment Designing</option>
+<option value="B.Sc Psychology">B.Sc Psychology"</option>
+            <option value="B.Com Accounting and Finance">B.Com Accounting and Finance</option>
+            <option value="B.Com IT">B.Com IT</option>
+           <option value="B.Sc Computer Science and Data Analytics">B.Sc Computer Science and Data Analytics</option>
+          <option value="B.Sc Artificial Intelligence and Machine Learning">B.Sc Artificial Intelligence and Machine Learning</option>
+</select>
+<br><br>
+
+
+
+
+
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+
+            
+
+            <div class="navigation-buttons">
+                <button type="button" class="next-button" onclick="showPart('part2')">Next</button>
+            </div>
+            </div>
+       
+
+        
+        <!-- Part 2: Questions -->
+        <div id="part2" style="display: none;">
+            <h2> SELF EFFICACY </h2>
+            <label> 1.  I can always manage to solve difficult problems if I try hard enough.:</label><br>
+            
+            <label for="q1a"> <input type="radio" id="q1a" name="q1" value="1"> Not at all true </label>
+
+            
+            <label for="q1b"> <input type="radio" id="q1b" name="q1" value="2"> Slightly true</label>
+
+            
+            <label for="q1c"> <input type="radio" id="q1c" name="q1" value="3"> Moderately true</label>
+
+            
+            <label for="q1d"> <input type="radio" id="q1d" name="q1" value="4"> Very true</label><br>
+
+
+
+            <label> 2.  If someone opposes me, I can find the means and ways to get what I want.</label> <br>
+
+            <label for="q2a"> <input type="radio" id="q2a" name="q2" value="1"> Not at all true </label>
+          
+            <label for="q2b"> <input type="radio" id="q2b" name="q2" value="2"> Slightly true</label>
+           
+            <label for="q2c"> <input type="radio" id="q2c" name="q2" value="3"> Moderately true</label>
+            
+            <label for="q2d"> <input type="radio" id="q2d" name="q2" value="4"> Very true</label><br>
+
+            <label> 3.  I am confident and invest the necessary effort that I could deal efficiently with unexpected events.</label><br> 
+
+            <label for="q3a"> <input type="radio" id="q3a" name="q3" value="1"> Not at all true </label>
+
+            <label for="q3b"> <input type="radio" id="q3b" name="q3" value="2"> Slightly true</label>
+           
+            <label for="q3c"> <input type="radio" id="q3c" name="q3" value="3"> Moderately true</label>
+
+            <label for="q3d"> <input type="radio" id="q3d" name="q3" value="4"> Very true</label><br>
+
+            <label> 4.  I can remain calm when facing difficulties because I can rely on my coping abilities.</label><br>
+
+            <label for="q4a"> <input type="radio" id="q4a" name="q4" value="1"> Not at all true </label>
+         
+            <label for="q4b"> <input type="radio" id="q4b" name="q4" value="2"> Slightly true</label>
+          
+            <label for="q4c"> <input type="radio" id="q4c" name="q4" value="3"> Moderately true</label>
+       
+            <label for="q4d"> <input type="radio" id="q4d" name="q4" value="4"> Very true</label><br>
+
+
+
+
+            <div class="navigation-buttons">
+                <button type="button" class="back-button" onclick="showPart('part1')">Back</button>
+                <button type="button" class="next-button" onclick="showPart('part3')">Next</button>
+            </div>
+        </div>
+        
+
+        <!-- Part 3: Questions -->
+        <div id="part3" style="display: none;">
+            <h2>VISUAL LEARNING STYLE</h2>
+
+
+
+            <label> 5. When trying to remember someone’s telephone number, it helps me to get a picture of it in my mind.</label><br>
+            
+            <label for="q5a"> <input type="radio" id="q5a" name="q5" value="1"> Not at all true </label>
+
+            
+            <label for="q5b"> <input type="radio" id="q5b" name="q5" value="2"> Slightly true</label>
+
+            
+            <label for="q5c"> <input type="radio" id="q5c" name="q5" value="3"> Moderately true</label>
+
+            
+            <label for="q5d"> <input type="radio" id="q5d" name="q5" value="4"> Very true</label><br>
+
+
+
+            <label> 6.  Using flashcards helps me to retain material for tests.</label><br>
+            
+            <label for="q6a"> <input type="radio" id="q6a" name="q6" value="1"> Not at all true </label>
+
+            
+            <label for="q6b"> <input type="radio" id="q6b" name="q6" value="2"> Slightly true</label>
+
+            
+            <label for="q6c"> <input type="radio" id="q6c" name="q6" value="3"> Moderately true</label>
+
+            
+            <label for="q6d"> <input type="radio" id="q6d" name="q6" value="4"> Very true</label><br>
+
+    
+<h2>AUDITORY LEARNING STYLE</h2>
+
+
+   <label> 7. It’s easy for me to understand a joke when someone tells me.</label><br>
+            
+            <label for="q7a"> <input type="radio" id="q7a" name="q7" value="1"> Not at all true </label>
+
+            
+            <label for="q7b"> <input type="radio" id="q7b" name="q7" value="2"> Slightly true</label>
+
+            
+            <label for="q7c"> <input type="radio" id="q7c" name="q7" value="3"> Moderately true</label>
+
+            
+            <label for="q7d"> <input type="radio" id="q7d" name="q7" value="4"> Very true</label><br>
+
+
+            <label> 8. I remember things that I hear, rather than things that I see or touch.</label><br>
+            
+            <label for="q10a"> <input type="radio" id="q10a" name="q10" value="1"> Not at all true </label>
+
+            
+            <label for="q10b"> <input type="radio" id="q10b" name="q10" value="2"> Slightly true</label>
+
+            
+            <label for="q10c"> <input type="radio" id="q10c" name="q10" value="3"> Moderately true</label>
+
+            
+            <label for="q10d"> <input type="radio" id="q10d" name="q10" value="4"> Very true</label><br>
+
+<h2>KINESTHETIC LEARNING STYLE</h2>
+
+
+          <label> 9.  It helps to use my finger as a pointer when reading to keep my place.</label><br>
+            
+            <label for="q8a"> <input type="radio" id="q8a" name="q8" value="1"> Not at all true </label>
+
+            
+            <label for="q8b"> <input type="radio" id="q8b" name="q8" value="2"> Slightly true</label>
+
+            
+            <label for="q8c"> <input type="radio" id="q8c" name="q8" value="3"> Moderately true</label>
+
+            
+            <label for="q8d"> <input type="radio" id="q8d" name="q8" value="4"> Very true</label><br>
+
+          <label> 10. I think better when I have the freedom to move around.</label><br>
+            
+            <label for="q9a"> <input type="radio" id="q9a" name="q9" value="1"> Not at all true </label>
+
+            
+            <label for="q9b"> <input type="radio" id="q9b" name="q9" value="2"> Slightly true</label>
+
+            
+            <label for="q9c"> <input type="radio" id="q9c" name="q9" value="3"> Moderately true</label>
+
+            
+            <label for="q9d"> <input type="radio" id="q9d" name="q9" value="4"> Very true</label><br>
+
+        
+
+
+            <div class="navigation-buttons">
+                <button type="button" class="back-button" onclick="showPart('part2')">Back</button>
+                <button type="button" class="next-button" onclick="showPart('part4')">Next</button>
+    </div>
+    </div>
+
+        <!-- Part 4: Questions -->
+        <div id="part4" style="display: none;">
+            <h2>ACADEMIC SKILL</h2>
+
+            <label> 11. Do you have a system for taking notes, preparing for tests and exams?</label><br>
+            
+            <label for="q11a"> <input type="radio" id="q11a" name="q11" value="1"> Yes </label>
+
+            
+            <label for="q11b"> <input type="radio" id="q11b" name="q11" value="0"> No</label>
+
+        
+
+
+
+            <label> 12. I'm usually good at prioritizing my time to get my studying done.</label><br>
+            
+            <label for="q12a"> <input type="radio" id="q12a" name="q12" value="1"> Yes </label>
+
+            
+            <label for="q12b"> <input type="radio" id="q12b" name="q12" value="0"> No </label>
+
+    <h2>EXECUTIVE FUNCTION</h2>
+
+
+   <label> 13. I would still like school even if my friends weren't there.</label><br>
+            
+            <label for="q13a"> <input type="radio" id="q13a" name="q13" value="1"> Yes </label>
+
+            
+            <label for="q13b"> <input type="radio" id="q13b" name="q13" value="0"> No </label>
+
+            
+            
+
+
+
+            <label> 14. I think about the consequences before I act.</label><br>
+            
+            <label for="q14a"> <input type="radio" id="q14a" name="q14" value="1"> Yes </label>
+
+            
+            <label for="q14b"> <input type="radio" id="q14b" name="q14" value="0"> No </label>
+
+    <h2>MOTIVATION AND CONFIDENCE</h2>           
+            
+
+
+<label> 15. I would be willing to give up my extracurricular interest to make excellent grades.</label><br>
+            
+            <label for="q15a"> <input type="radio" id="q15a" name="q15" value="1"> Yes </label>
+
+            
+            <label for="q15b"> <input type="radio" id="q15b" name="q15" value="0"> No </label>
+
+            
+    
+
+
+
+            <label> 16. Do you know that you can succeed?</label><br>
+            
+            <label for="q16a"> <input type="radio" id="q16a" name="q16" value="1"> Yes </label>
+
+            
+            <label for="q16b"> <input type="radio" id="q16b" name="q16" value="0"> No </label>
+
+            
+
+          
+
+        <!-- PostEducation Questions -->
+    <h2>POST EDUCATION</h2>
+
+
+<label> 17. I see many benefits in going to college.</label><br>
+            
+            <label for="q17a"> <input type="radio" id="q17a" name="q17" value="1"> Yes </label>
+
+            
+            <label for="q17b"> <input type="radio" id="q17b" name="q17" value="0"> No </label>
+
+            
+    
+
+
+
+            <label> 18.  I want to go to college as much as my parents want me to go.</label><br>
+            
+            <label for="q18a"> <input type="radio" id="q18a" name="q18" value="1"> Yes </label>
+
+            
+            <label for="q18b"> <input type="radio" id="q18b" name="q18" value="0"> No </label>
+            <label> 19.  The thought of college doesn't really scare me.</label><br>
+            
+            <label for="q19a"> <input type="radio" id="q19a" name="q19" value="1"> Yes </label>
+
+            
+            <label for="q19b"> <input type="radio" id="q19b" name="q19" value="0"> No </label>
+
+            
+    
+
+
+
+            <label> 20. I am ready to begin thinking about my future and planning for college.</label><br>
+            
+            <label for="q20a"> <input type="radio" id="q20a" name="q20" value="1"> Yes </label>
+
+            
+            <label for="q20b"> <input type="radio" id="q20b" name="q20" value="0"> No </label>
+
+   
+
+            <div class="navigation-buttons">
+                <button type="button" class="back-button" onclick="showPart('part3')">Back</button>
+                <button type="button" class="next-button" onclick="showPart('part5')">Next</button>
+            </div>
+        </div>
+       
+       <!-- Part 5: Questions -->
+        <div id="part5" style="display: none;">
+            <h2>PERSONALLY RESERVED </h2>
+            <label> 21. I have more good qualities than bad ones.</label><br>
+            
+            <label for="q21a"> <input type="radio" id="q21a" name="q21" value="1"> Not at all true </label>
+
+            
+            <label for="q21b"> <input type="radio" id="q21b" name="q21" value="2"> Slightly true</label>
+
+            
+            <label for="q21c"> <input type="radio" id="q21c" name="q21" value="3"> Moderately true</label>
+
+            
+            <label for="q21d"> <input type="radio" id="q21d" name="q21" value="4"> Very true</label><br>
+
+<h2>SELF-CRITICISM</h2>
+
+
+            <label> 22. I can be quite impatient with other people.</label> <br>
+
+            <label for="q22a"> <input type="radio" id="q22a" name="q22" value="1"> Not at all true </label>
+          
+            <label for="q22b"> <input type="radio" id="q22b" name="q22" value="2"> Slightly true</label>
+           
+            <label for="q22c"> <input type="radio" id="q22c" name="q22" value="3"> Moderately true</label>
+            
+            <label for="q22d"> <input type="radio" id="q22d" name="q22" value="4"> Very true</label><br>
+
+
+
+<h2>ANXIOUS & WORRYING</h2>            
+            <label> 23. I fear that my important relationships will end somehow.</label><br>           
+            <label for="q23a"> <input type="radio" id="q22a" name="q23" value="1"> Not at all true </label>
+
+            <label for="q23b"> <input type="radio" id="q23b" name="q23" value="2"> Slightly true</label>
+           
+            <label for="q23c"> <input type="radio" id="q23c" name="q23" value="3"> Moderately true</label>
+
+            <label for="q23d"> <input type="radio" id="q23d" name="q23" value="4"> Very true</label><br>
+
+
+    
+<h2>PERFECTIONSM</h2>
+            <label> 24. I feel confident in my ability to size up and deal with any situation.</label><br>
+            <label for="q24a"> <input type="radio" id="q24a" name="q24" value="1"> Not at all true </label>
+         
+            <label for="q24b"> <input type="radio" id="q24b" name="q24" value="2"> Slightly true</label>
+          
+            <label for="q24c"> <input type="radio" id="q24c" name="q24" value="3"> Moderately true</label>
+       
+            <label for="q24d"> <input type="radio" id="q24d" name="q24" value="4"> Very true</label><br>
+
+        
+
+
+
+    
+<h2>IRRITABILITY</h2>
+            <label> 25. I have an excitable and quick temper.</label><br>           
+            <label for="q25a"> <input type="radio" id="q25a" name="q25" value="1"> Not at all true </label>
+
+            <label for="q25b"> <input type="radio" id="q25b" name="q25" value="2"> Slightly true</label>
+           
+            <label for="q25c"> <input type="radio" id="q25c" name="q25" value="3"> Moderately true</label>
+
+            <label for="q25d"> <input type="radio" id="q25d" name="q25" value="4"> Very true</label><br>
+
+
+
+
+            <div class="navigation-buttons">
+                <button type="button" class="back-button" onclick="showPart('part4')">Back</button>
+                <button type="button" class="next-button" onclick="showPart('part6')">Next</button>
+            </div>
+            </div>
+
+
+<div id="part6" style="display: none;">
+            <h2>LEVEL OF SOCIAL SUPPORT Question 1</h2>
+            <label> 26. With whom can you totally be yourself?</label><br>
+            
+            <label for="q26a"> <input type="radio" id="q26a" name="q26" value="1"> Family </label>
+
+            
+            <label for="q26b"> <input type="radio" id="q26b" name="q26" value="2"> Friends </label>
+
+            
+            <label for="q26c"> <input type="radio" id="q26c" name="q26" value="3"> Social Media </label>
+
+        
+                <h2>LEVEL OF SOCIAL SUPPORT Questions 2</h2>
+
+            <label> 27. Whom can you really count on to listen to you when you need to talk?</label> <br>
+
+            <label for="q27a"> <input type="radio" id="q27a" name="q27" value="1"> Family </label>
+          
+            <label for="q27b"> <input type="radio" id="q27b" name="q27" value="2"> Friends</label>
+           
+            <label for="q27c"> <input type="radio" id="q27c" name="q27" value="3"> Social Media </label>
+            
+
+           
+
+        <div class="navigation-buttons">
+            <button type="button" class="back-button" onclick="showPart('part5')">Back</button>
+            <button type="button" class="next-button" onclick="showPart('part7')">Next</button>
+        </div>
+        </div>
+
+
+
+<!-- Part 7: Questions -->
+<div id="part7" style="display: none;">
+    <h2> LEADERSHIP ASPIRATION </h2>
+    <label> 28. I hope to become a leader in my career field. </label><br>
+    
+    <label for="q28a"> <input type="radio" id="q28a" name="q28" value="1"> Not at all true </label>
+
+    
+    <label for="q28b"> <input type="radio" id="q28b" name="q28" value="2"> Slightly true</label>
+
+    
+    <label for="q28c"> <input type="radio" id="q28c" name="q28" value="3"> Moderately true</label>
+
+    
+    <label for="q28d"> <input type="radio" id="q28d" name="q28" value="4"> Very true</label><br>
+
+
+
+    <label> 29. I do not plan to devote energy to getting promoted to a leadership position in the organization or business in which I am working.</label> <br>
+
+    <label for="q29a"> <input type="radio" id="q29a" name="q29" value="4"> Not at all true </label>
+  
+    <label for="q29b"> <input type="radio" id="q29b" name="q29" value="3"> Slightly true</label>
+   
+    <label for="q29c"> <input type="radio" id="q29c" name="q29" value="2"> Moderately true</label>
+    
+    <label for="q29d"> <input type="radio" id="q29d" name="q29" value="1"> Very true</label><br>
+
+
+    <label> 30. Becoming a leader in my job is not at all important to me.</label><br>
+    <label for="q31a"> <input type="radio" id="q31a" name="q31" value="4"> Not at all true </label>
+ 
+    <label for="q31b"> <input type="radio" id="q31b" name="q31" value="3"> Slightly true</label>
+  
+    <label for="q31c"> <input type="radio" id="q31c" name="q31" value="2"> Moderately true</label>
+
+    <label for="q31d"> <input type="radio" id="q31d" name="q31" value="1"> Very true</label><br>
+
+    <label> 31. When I am established in my career, I would like to manage other employees.</label><br>           
+    <label for="q32a"> <input type="radio" id="q32a" name="q32" value="1"> Not at all true </label>
+
+    <label for="q32b"> <input type="radio" id="q32b" name="q32" value="2"> Slightly true</label>
+   
+    <label for="q32c"> <input type="radio" id="q32c" name="q32" value="3"> Moderately true</label>
+
+    <label for="q32d"> <input type="radio" id="q32d" name="q32" value="4"> Very true</label><br>
+
+
+    <label> 32. I want to have responsibility for the future direction of my organization or business.</label> <br>
+
+    <label for="q34a"> <input type="radio" id="q34a" name="q34" value="1"> Not at all true </label>
+  
+    <label for="q34b"> <input type="radio" id="q34b" name="q34" value="2"> Slightly true</label>
+   
+    <label for="q34c"> <input type="radio" id="q34c" name="q34" value="3"> Moderately true</label>
+    
+    <label for="q34d"> <input type="radio" id="q34d" name="q34" value="4"> Very true</label><br>
+
+
+    <label> 33. Attaining leadership status in my career is not that important to me.</label> <br>
+
+    <label for="q39a"> <input type="radio" id="q39a" name="q39" value="4"> Not at all true </label>
+  
+    <label for="q39b"> <input type="radio" id="q39b" name="q39" value="3"> Slightly true</label>
+   
+    <label for="q39c"> <input type="radio" id="q39c" name="q39" value="2"> Moderately true</label>
+    
+    <label for="q39d"> <input type="radio" id="q39d" name="q39" value="1"> Very true</label><br>
+
+    <label> 34. I hope to move up to a leadership position in my organization or business.</label><br>
+
+    <label for="q42a"> <input type="radio" id="q42a" name="q42" value="1"> Not at all true </label>
+
+    <label for="q42b"> <input type="radio" id="q42b" name="q42" value="2"> Slightly true</label>
+   
+    <label for="q42c"> <input type="radio" id="q42c" name="q42" value="3"> Moderately true</label>
+
+    <label for="q42d"> <input type="radio" id="q42d" name="q42" value="4"> Very true</label><br>
+
+    <label> 35. I plan to rise to the top leadership position of my organization or business.</label><br>
+
+    <label for="q51a"> <input type="radio" id="q51a" name="q51" value="1"> Not at all true </label>
+ 
+    <label for="q51b"> <input type="radio" id="q51b" name="q51" value="2"> Slightly true</label>
+  
+    <label for="q51c"> <input type="radio" id="q51c" name="q51" value="3"> Moderately true</label>
+
+    <label for="q51d"> <input type="radio" id="q51d" name="q51" value="4"> Very true</label><br>
+
+  
+
+
+<h2>ACHIEVEMENT ASPIRATION</h2>
+
+
+
+    <label> 36. I want to be among the very best in my field.</label><br>  
+
+    <label for="q30a"> <input type="radio" id="q30a" name="q30" value="1"> Not at all true </label>
+
+    <label for="q30b"> <input type="radio" id="q30b" name="q30" value="2"> Slightly true</label>
+   
+    <label for="q30c"> <input type="radio" id="q30c" name="q30" value="3"> Moderately true</label>
+
+    <label for="q30d"> <input type="radio" id="q30d" name="q30" value="4"> Very true</label><br>
+
+
+    <label> 37. I want my work to have a lasting impact on my field.</label><br>  
+
+    <label for="q35a"> <input type="radio" id="q35a" name="q35" value="1"> Not at all true </label>
+
+    <label for="q35b"> <input type="radio" id="q35b" name="q35" value="2"> Slightly true</label>
+   
+    <label for="q35c"> <input type="radio" id="q35c" name="q35" value="3"> Moderately true</label>
+
+    <label for="q35d"> <input type="radio" id="q35d" name="q35" value="4"> Very true</label><br>
+
+    <label> 38. I aspire to have my contributions at work recognized by my employer.</label><br>
+
+    <label for="q36a"> <input type="radio" id="q36a" name="q36" value="1"> Not at all true </label>
+ 
+    <label for="q36b"> <input type="radio" id="q36b" name="q36" value="2"> Slightly true</label>
+  
+    <label for="q36c"> <input type="radio" id="q36c" name="q36" value="3"> Moderately true</label>
+
+    <label for="q36d"> <input type="radio" id="q36d" name="q36" value="4"> Very true</label><br>
+
+    <label> 39. Being outstanding at what I do at work is very important to me.</label><br>           
+    <label for="q40a"> <input type="radio" id="q40a" name="q40" value="1"> Not at all true </label>
+
+    <label for="q40b"> <input type="radio" id="q40b" name="q40" value="2"> Slightly true</label>
+   
+    <label for="q40c"> <input type="radio" id="q40c" name="q40" value="3"> Moderately true</label>
+
+    <label for="q40d"> <input type="radio" id="q40d" name="q40" value="4"> Very true</label><br>
+
+
+     <label> 40. I know that I will be recognized for my accomplishments in my field.</label> <br>
+
+    <label for="q44a"> <input type="radio" id="q44a" name="q44" value="1"> Not at all true </label>
+  
+    <label for="q44b"> <input type="radio" id="q44b" name="q44" value="2"> Slightly true</label>
+   
+    <label for="q44c"> <input type="radio" id="q44c" name="q44" value="3"> Moderately true</label>
+    
+    <label for="q44d"> <input type="radio" id="q44d" name="q44" value="4"> Very true</label><br>
+
+
+    <label> 41. Achieving in my career is not at all important to me.</label><br> 
+
+    <label for="q47a"> <input type="radio" id="q47a" name="q47" value="4"> Not at all true </label>
+
+    <label for="q47b"> <input type="radio" id="q47b" name="q47" value="3"> Slightly true</label>
+   
+    <label for="q47c"> <input type="radio" id="q47c" name="q47" value="2"> Moderately true</label>
+
+    <label for="q47d"> <input type="radio" id="q47d" name="q47" value="1"> Very true</label><br>
+
+
+    <label> 42. I plan to obtain many promotions in my organization or business.</label><br>
+    
+    <label for="q48a"> <input type="radio" id="q48a" name="q48" value="1"> Not at all true </label>
+
+    
+    <label for="q48b"> <input type="radio" id="q48b" name="q48" value="2"> Slightly true</label>
+
+    
+    <label for="q48c"> <input type="radio" id="q48c" name="q48" value="3"> Moderately true</label>
+
+    
+    <label for="q48d"> <input type="radio" id="q48d" name="q48" value="4"> Very true</label><br>
+
+
+
+    <label> 43. Being one of the best in my field is not important to me.</label> <br>
+
+    <label for="q49a"> <input type="radio" id="q49a" name="q49" value="4"> Not at all true </label>
+  
+    <label for="q49b"> <input type="radio" id="q49b" name="q49" value="3"> Slightly true</label>
+   
+    <label for="q49c"> <input type="radio" id="q49c" name="q49" value="2"> Moderately true</label>
+    
+    <label for="q49d"> <input type="radio" id="q49d" name="q49" value="1"> Very true</label><br>
+
+ 
+
+
+<h2>EDUCATION ASPIRATION</h2>
+
+
+      <label>44. I plan to reach the highest level of education in my field. </label><br>
+    
+    <label for="q33a"> <input type="radio" id="q33a" name="q33" value="1"> Not at all true </label>
+
+    
+    <label for="q33b"> <input type="radio" id="q33b" name="q33" value="2"> Slightly true</label>
+
+    
+    <label for="q33c"> <input type="radio" id="q33c" name="q33" value="3"> Moderately true</label>
+
+    
+    <label for="q33d"> <input type="radio" id="q33d" name="q33" value="4"> Very true</label><br>
+    
+
+    <label> 45. I will pursue additional training in my occupational area of interest.</label><br> 
+              
+    <label for="q37a"> <input type="radio" id="q37a" name="q37" value="1"> Not at all true </label>
+
+    <label for="q37b"> <input type="radio" id="q37b" name="q37" value="2"> Slightly true</label>
+   
+    <label for="q37c"> <input type="radio" id="q37c" name="q37" value="3"> Moderately true</label>
+
+    <label for="q37d"> <input type="radio" id="q37d" name="q37" value="4"> Very true</label><br>
+
+    <label> 46. I will always be knowledgeable about recent advances in my field.</label><br>
+    
+    <label for="q38a"> <input type="radio" id="q38a" name="q38" value="1"> Not at all true </label>
+
+    
+    <label for="q38b"> <input type="radio" id="q38b" name="q38" value="2"> Slightly true</label>
+
+    
+    <label for="q38c"> <input type="radio" id="q38c" name="q38" value="3"> Moderately true</label>
+
+    
+    <label for="q38d"> <input type="radio" id="q38d" name="q38" value="4"> Very true</label><br>
+
+    
+    <label> 47. I know I will work to remain current regarding knowledge in my field.</label><br>
+
+    <label for="q41a"> <input type="radio" id="q41a" name="q41" value="1"> Not at all true </label>
+ 
+    <label for="q41b"> <input type="radio" id="q41b" name="q41" value="2"> Slightly true</label>
+  
+    <label for="q41c"> <input type="radio" id="q41c" name="q41" value="3"> Moderately true</label>
+
+    <label for="q41d"> <input type="radio" id="q41d" name="q41" value="4"> Very true</label><br>
+
+    
+    <label> 48. I will attend conferences annually to advance my knowledge.</label><br>
+    
+    <label for="q43a"> <input type="radio" id="q43a" name="q43" value="1"> Not at all true </label>
+
+    
+    <label for="q43b"> <input type="radio" id="q43b" name="q43" value="2"> Slightly true</label>
+
+    
+    <label for="q43c"> <input type="radio" id="q43c" name="q43" value="3"> Moderately true</label>
+
+    
+    <label for="q43d"> <input type="radio" id="q43d" name="q43" value="4"> Very true</label><br>
+
+
+    <label> 49. Even if not required, I would take continuing education courses to become more knowledgeable.</label><br> 
+
+    <label for="q45a"> <input type="radio" id="q45a" name="q45" value="1"> Not at all true </label>
+
+    <label for="q45b"> <input type="radio" id="q45b" name="q45" value="2"> Slightly true</label>
+   
+    <label for="q45c"> <input type="radio" id="q45c" name="q45" value="3"> Moderately true</label>
+
+    <label for="q45d"> <input type="radio" id="q45d" name="q45" value="4"> Very true</label><br>
+
+    <label> 40. I would pursue an advanced education program to gain specialized knowledge in my field.</label><br>
+
+    <label for="q46a"> <input type="radio" id="q46a" name="q46" value="1"> Not at all true </label>
+ 
+    <label for="q46b"> <input type="radio" id="q46b" name="q46" value="2"> Slightly true</label>
+  
+    <label for="q46c"> <input type="radio" id="q46c" name="q46" value="3"> Moderately true</label>
+
+    <label for="q46d"> <input type="radio" id="q46d" name="q46" value="4"> Very true</label><br>
+
+    <label> 51. Every year, I will prioritize involvement in continuing education to advance my career.</label><br> 
+
+    <label for="q50a"> <input type="radio" id="q50a" name="q50" value="1"> Not at all true </label>
+
+    <label for="q50b"> <input type="radio" id="q50b" name="q50" value="2"> Slightly true</label>
+   
+    <label for="q50c"> <input type="radio" id="q50c" name="q50" value="3"> Moderately true</label>
+
+    <label for="q50d"> <input type="radio" id="q50d" name="q50" value="4"> Very true</label><br>
+    
+
+
+<div class="navigation-buttons">
+    <button type="button" class="back-button" onclick="showPart('part7')">Back</button>
+    <center><button type="button" class="sumit-button" onclick="submitForm()">Submit</center></button>
+</div>
+</div>
+</form>
+
+<script>
+  let globalId = null;
+    function showPart(partId) {
+    if (partId === 'part2' && !validatePersonalDetails()) {
+        return;
+    }
+    if (partId === 'part3' && !validateQuestionsPart2()) {
+        return;
+    }
+    if (partId === 'Auditorylearningstyle' && !validateQuestionsPart3()) {
+        return;
+    }
+    if (partId === 'Kinestheticlearningstyle' && !validateQuestionsAuditorylearningstyle()) {
+        return;
+    }
+    if (partId === 'part4' && !validateQuestionsKinestheticlearningstyle()) {
+        return;
+    }
+    if (partId === 'Executivefunction' && !validateQuestionsPart4()) {
+        return;
+    }
+    if (partId === 'Motivationandconfidence' && !validateQuestionsExecutivefunction()) {
+        return;
+    }
+    if (partId === 'PostEducation' && !validateQuestionsMotivationandconfidence()) {
+        return;
+    }
+    if (partId === 'part5' && !validateQuestionsPostEducation()) {
+        return;
+    }
+    if (partId === 'Selfcriticism' && !validateQuestionsPart5()) {
+        return;
+    }
+    if (partId === 'AnxiousWorrying' && !validateQuestionsSelfcriticism()) {
+        return;
+    }
+    if (partId === 'Perfectionism' && !validateQuestionsAnxiousWorrying()) {
+        return;
+    }
+    if (partId === 'Irritability' && !validateQuestionsPerfectionism()) {
+        return;
+    }
+    if (partId === 'part6' && !validateQuestionsIrritability()) {
+        return;
+    }
+    if (partId === 'part7' && !validateQuestionsPart6()) {
+        return;
+    }
+    if (partId === 'AchievementAspiration' && !validateQuestionsPart7()) {
+        return;
+    }
+    if (partId === 'Educationalaspiration' && !validateQuestionsAchievementAspiration()) {
+        return;
+    }
+
+    document.querySelectorAll('form > div').forEach(div => {
+        div.style.display = (div.id === partId) ? 'block' : 'none';
+    });
+}
+
+function validatePersonalDetails() {
+    const name = document.getElementById('name').value.trim();
+    const registerNo = document.getElementById('registerNo').value.trim();
+    const gender = document.getElementById('gender').value.trim();
+    const graduate = document.getElementById('graduate').value.trim();
+    const hsc = document.getElementById('hsc').value.trim();
+    const myambition = document.getElementById('myambition').value.trim();
+    const dept = document.getElementById('department').value.trim();
+    const dob = document.getElementById('dob').value.trim();
+
+    // if (!name || !registerNo || !gender || !graduate || !hsc || !myambition || !dept || !dob) {
+    //     alert('Please fill out all personal details.');
+    //     return false;
+    // }
+    
+
+// Define the postData function
+async function postData() {
+    try {
+        const response = await fetch('https://kascit.onrender.com/post', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                name,
+                registerNo,
+                gender,
+                graduate,
+                hsc,
+                myambition,
+                dept,
+                dob
+            }), // Example data; replace with actual data
+        });
+
+        // Check if the response is okay
+        if (!response.ok) {
+            // Extract the error message if available
+            const errorText = await response.text();
+            throw new Error(`Network response was not ok: ${response.statusText} - ${errorText}`);
+        }
+
+        // Parse the JSON from the response
+        const data = await response.json();
+
+        // Extract the 'id' from the data
+        const id = data.id;
+
+        console.log('ID:', id);
+        return id; // Return the id if you need to use it elsewhere
+    } catch (error) {
+        console.error('There was a problem with the fetch operation:', error);
+        throw error; // Re-throw the error to be handled by the caller
+    }
+}
+
+// Call the function to execute the POST request
+postData()
+    .then(id => {
+        globalId = id; // Store the id in the global variable
+        console.log('Received ID:', globalId);
+    })
+    .catch(error => {
+        console.error('Error occurred:', error);
+    });
+
+// Example function to use the globalId later
+function useGlobalId() {
+    console.log('Using Global ID:', globalId);
+    // Do something with globalId
+}
+
+// Call useGlobalId to demonstrate accessing the global variable
+// This might be called after some delay or in response to an event
+setTimeout(useGlobalId, 2000);
+
+
+
+    return true;
+}
+
+function validateQuestionsPart2() {
+    const q1 = document.querySelector('input[name="q1"]:checked');
+    const q2 = document.querySelector('input[name="q2"]:checked');
+    const q3 = document.querySelector('input[name="q3"]:checked');
+    const q4 = document.querySelector('input[name="q4"]:checked');
+
+    if (!q1 || !q2 || !q3 || !q4) {
+        alert('Please answer all questions in Part 2.');
+        return false;
+    }
+
+    return true;
+}
+
+function validateQuestionsPart3() {
+    const q5 = document.querySelector('input[name="q5"]:checked');
+    const q6 = document.querySelector('input[name="q6"]:checked');
+
+    if (!q5 || !q6) {
+        alert('Please answer all questions in Part 3.');
+        return false;
+    }
+
+    return true;
+}
+
+function validateQuestionsAuditorylearningstyle() {
+    const q7 = document.querySelector('input[name="q7"]:checked');
+    const q10 = document.querySelector('input[name="q10"]:checked');
+
+    if (!q7 || !q10) {
+        alert('Please answer all questions in Auditorylearningstyle.');
+        return false;
+    }
+
+    return true;
+}
+
+function validateQuestionsKinestheticlearningstyle() {
+    const q8 = document.querySelector('input[name="q8"]:checked');
+    const q9 = document.querySelector('input[name="q9"]:checked');
+
+    if (!q8 || !q9) {
+        alert('Please answer all questions in Kinestheticlearningstyle.');
+        return false;
+    }
+    return true;
+}
+
+function validateQuestionsPart4() {
+    const q11 = document.querySelector('input[name="q11"]:checked');
+    const q12 = document.querySelector('input[name="q12"]:checked');
+
+    if (!q11 || !q12) {
+        alert('Please answer all questions in Part 4.');
+        return false;
+    }
+
+    return true;
+}
+
+function validateQuestionsExecutivefunction() {
+    const q13 = document.querySelector('input[name="q13"]:checked');
+    const q14 = document.querySelector('input[name="q14"]:checked');
+
+    if (!q13 || !q14) {
+        alert('Please answer all questions in Executivefunction.');
+        return false;
+    }
+
+    return true;
+}
+
+function validateQuestionsMotivationandconfidence() {
+    const q15 = document.querySelector('input[name="q15"]:checked');
+    const q16 = document.querySelector('input[name="q16"]:checked');
+
+    if (!q15 || !q16) {
+        alert('Please answer all questions in Motivationandconfidence.');
+        return false;
+    }
+
+    return true;
+}
+
+function validateQuestionsPostEducation() {
+    const q17 = document.querySelector('input[name="q17"]:checked');
+    const q18 = document.querySelector('input[name="q18"]:checked');
+    const q19 = document.querySelector('input[name="q19"]:checked');
+    const q20 = document.querySelector('input[name="q20"]:checked');
+
+    if (!q17 || !q18 || !q19 || !q20) {
+        alert('Please answer all questions in PostEducation.');
+        return false;
+    }
+
+    return true;
+}
+
+function validateQuestionsPart5() {
+    const q21 = document.querySelector('input[name="q21"]:checked');
+
+    if (!q21) {
+        alert('Please answer all questions in Part 5.');
+        return false;
+    }
+
+    return true;
+}
+
+function validateQuestionsSelfcriticism() {
+    const q22 = document.querySelector('input[name="q22"]:checked');
+
+    if (!q22) {
+        alert('Please answer all questions in Selfcriticism.');
+        return false;
+    }
+
+    return true;
+}
+
+function validateQuestionsAnxiousWorrying() {
+    const q23 = document.querySelector('input[name="q23"]:checked');
+
+    if (!q23) {
+        alert('Please answer all questions in AnxiousWorrying.');
+        return false;
+    }
+
+    return true;
+}
+
+function validateQuestionsPerfectionism() {
+    const q24 = document.querySelector('input[name="q24"]:checked');
+
+    if (!q24) {
+        alert('Please answer all questions in Perfectionism.');
+        return false;
+    }
+
+    return true;
+}
+
+
+function validateQuestionsIrritability() {
+    const q25 = document.querySelector('input[name="q25"]:checked');
+    
+
+    if (!q25) {
+        alert('Please answer all questions in Irritability.');
+        return false;
+    }
+
+    return true;
+}
+
+function validateQuestionsPart6() {
+    const q26 = document.querySelector('input[name="q26"]:checked');
+    
+
+    if (!q26 ) {
+        alert('Please answer all questions in Part 6.');
+        return false;
+    }
+
+    return true;
+}
+
+function validateQuestionsPart66() {
+    const q27 = document.querySelector('input[name="q27"]:checked');
+    
+
+    if ( !q27) {
+        alert('Please answer all questions in Part 6.');
+        return false;
+    }
+
+    return true;
+}
+
+
+function validateQuestionsPart7() {
+    const q28 = document.querySelector('input[name="q28"]:checked');
+    const q29 = document.querySelector('input[name="q29"]:checked');
+    const q31 = document.querySelector('input[name="q31"]:checked');
+    const q32 = document.querySelector('input[name="q32"]:checked');
+    const q34 = document.querySelector('input[name="q34"]:checked');
+    const q39 = document.querySelector('input[name="q39"]:checked');
+    const q42 = document.querySelector('input[name="q42"]:checked');
+    const q51 = document.querySelector('input[name="q51"]:checked');
+
+    if (!q28 || !q29 || !q31 || !q32 || !q34 || !q39 || !q42 || !q51) {
+        alert('Please answer all questions in Part 7.');
+        return false;
+    }
+
+    return true;
+}
+
+function validateQuestionsAchievementAspiration() {
+    const q30 = document.querySelector('input[name="q30"]:checked');
+    const q35 = document.querySelector('input[name="q35"]:checked');
+    const q36 = document.querySelector('input[name="q36"]:checked');
+    const q40 = document.querySelector('input[name="q40"]:checked');
+    const q44 = document.querySelector('input[name="q44"]:checked');
+    const q47 = document.querySelector('input[name="q47"]:checked');
+    const q48 = document.querySelector('input[name="q48"]:checked');
+    const q49 = document.querySelector('input[name="q49"]:checked');
+
+    if (!q30 || !q35 || !q36 || !q40 || !q44 || !q47 || !q48 || !q49) {
+        alert('Please answer all questions in AchievementAspiration.');
+        return false;
+    }
+
+    return true;
+}
+
+function validateQuestionsEducationalaspiration() {
+    const q33 = document.querySelector('input[name="q33"]:checked');
+    const q37 = document.querySelector('input[name="q37"]:checked');
+    const q38 = document.querySelector('input[name="q38"]:checked');
+    const q41 = document.querySelector('input[name="q41"]:checked');
+    const q43 = document.querySelector('input[name="q43"]:checked');
+    const q45 = document.querySelector('input[name="q45"]:checked');
+    const q46 = document.querySelector('input[name="q46"]:checked');
+    const q50 = document.querySelector('input[name="q50"]:checked');
+
+    if (!q33 || !q37 || !q38 || !q41 || !q43 || !q45 || !q46 || !q50) {
+        alert('Please answer all questions in Educationalaspiration.');
+        return false;
+    }
+
+    return true;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function submitForm() {
+    if (!validateQuestionsPostEducation()) {
+        return;
+    }
+
+    const form = document.getElementById('quizForm');
+    const formData = new FormData(form);
+
+    // Retrieve the values from the form
+    const name = formData.get('name');
+    const registerNo = formData.get('registerNo');
+    const gender = formData.get('gender');
+    const graduate = formData.get('graduate');
+    const hsc = formData.get('hsc');
+    const myambition = formData.get('myambition');
+    const dept = formData.get('department');
+    const dob = formData.get('dob');
+    const q1 = parseInt(formData.get('q1') || 0);
+    const q2 = parseInt(formData.get('q2') || 0);
+    const q3 = parseInt(formData.get('q3') || 0);
+    const q4 = parseInt(formData.get('q4') || 0);
+    const q5 = parseInt(formData.get('q5') || 0);
+    const q6 = parseInt(formData.get('q6') || 0);
+    const q7 = parseInt(formData.get('q7') || 0);
+    const q8 = parseInt(formData.get('q8') || 0);
+    const q9 = parseInt(formData.get('q9') || 0);
+    const q10 = parseInt(formData.get('q10') || 0);
+    const q11 = parseInt(formData.get('q11') || 0);
+    const q12 = parseInt(formData.get('q12') || 0);
+    const q13 = parseInt(formData.get('q13') || 0);
+    const q14 = parseInt(formData.get('q14') || 0);
+    const q15 = parseInt(formData.get('q15') || 0);
+    const q16 = parseInt(formData.get('q16') || 0);
+    const q17 = parseInt(formData.get('q17') || 0);
+    const q18 = parseInt(formData.get('q18') || 0);
+    const q19 = parseInt(formData.get('q19') || 0);
+    const q20 = parseInt(formData.get('q20') || 0);
+    const q21 = parseInt(formData.get('q21') || 0);
+    const q22 = parseInt(formData.get('q22') || 0);
+    const q23 = parseInt(formData.get('q23') || 0);
+    const q24 = parseInt(formData.get('q24') || 0);
+    const q25 = parseInt(formData.get('q25') || 0);
+    const q26 = parseInt(formData.get('q26') || 0);
+    const q27 = parseInt(formData.get('q27') || 0);
+    const q28 = parseInt(formData.get('q28') || 0);
+    const q29 = parseInt(formData.get('q29') || 0);
+    const q30 = parseInt(formData.get('q30') || 0);
+    const q31 = parseInt(formData.get('q31') || 0);
+    const q32 = parseInt(formData.get('q32') || 0);
+    const q33 = parseInt(formData.get('q33') || 0);
+    const q34 = parseInt(formData.get('q34') || 0);
+    const q35 = parseInt(formData.get('q35') || 0);
+    const q36 = parseInt(formData.get('q36') || 0);
+    const q37 = parseInt(formData.get('q37') || 0);
+    const q38 = parseInt(formData.get('q38') || 0);
+    const q39 = parseInt(formData.get('q39') || 0);
+    const q40 = parseInt(formData.get('q40') || 0);
+    const q41 = parseInt(formData.get('q41') || 0);
+    const q42 = parseInt(formData.get('q42') || 0);
+    const q43 = parseInt(formData.get('q43') || 0);
+    const q44 = parseInt(formData.get('q44') || 0);
+    const q45 = parseInt(formData.get('q45') || 0);
+    const q46 = parseInt(formData.get('q46') || 0);
+    const q47 = parseInt(formData.get('q47') || 0);
+    const q48 = parseInt(formData.get('q48') || 0);
+    const q49 = parseInt(formData.get('q49') || 0);
+    const q50 = parseInt(formData.get('q50') || 0);
+    const q51 = parseInt(formData.get('q51') || 0);
+
+    // Validate required fields
+    if (!name || !registerNo || !gender || !graduate || !hsc || !myambition || !dept || !dob) {
+        alert('Please fill out all personal details.');
+        return;
+    }
+
+    // Validate that questions in Part 2 are answered
+    if (isNaN(q1) || isNaN(q2) || isNaN(q3) || isNaN(q4)) {
+        alert('Please answer all questions in Part 2.');
+        return;
+    }
+
+    // Validate that questions in Part 3 are answered
+    if (isNaN(q5) || isNaN(q6)) {
+        alert('Please answer all questions in Part 3.');
+        return;
+    }
+
+
+    // Validate that questions in Auditorylearningstyle are answered
+    if (isNaN(q7) || isNaN(q10)) {
+        alert('Please answer all questions in Auditorylearningstyle.');
+        return;
+    }
+
+
+    // Validate that questions in Kinestheticlearningstyle are answered
+    if (isNaN(q8) || isNaN(q9)) {
+        alert('Please answer all questions in Kinestheticlearningstyle.');
+        return;
+    }
+
+
+
+    // Validate that questions in Part 4 are answered
+    if (isNaN(q11) || isNaN(q12)) {
+        alert('Please answer all questions in Part 4.');
+        return;
+    }
+// Validate that questions in Executivefunction are answered
+if (isNaN(q13) || isNaN(q14)) {
+    alert('Please answer all questions in Executivefunction.');
+    return;
+}
+
+// Validate that questions in Motivationandconfidence are answered
+if (isNaN(q15) || isNaN(q16)) {
+    alert('Please answer all questions in Motivationandconfidence.');
+    return;
+}
+
+// Validate that questions in PostEducationTotal are answered
+if (isNaN(q17) || isNaN(q18) || isNaN(q19) || isNaN(q20)) {
+    alert('Please answer all questions in PostEducationTotal.');
+    return;
+}
+
+
+
+
+
+
+// Validate that questions in Part 5 are answered
+if (isNaN(q21)) {
+    alert('Please answer all questions in Part 5.');
+    return;
+}
+
+// Validate that questions in Selfcriticism are answered
+if (isNaN(q22)) {
+    alert('Please answer all questions in Selfcriticism.');
+    return;
+}
+
+// Validate that questions in AnxiousWorrying are answered
+if (isNaN(q23)) {
+    alert('Please answer all questions in AnxiousWorrying.');
+    return;
+}
+
+// Validate that questions in Perfectionism are answered
+if (isNaN(q24)) {
+    alert('Please answer all questions in Perfectionism.');
+    return;
+}
+
+// Validate that questions in Irritability are answered
+if (isNaN(q25)) {
+    alert('Please answer all questions in Irritability.');
+    return;
+}
+
+
+
+// Validate that questions in Part 6 are answered
+if (isNaN(q26)) {
+    alert('Please answer all questions in Part 6.');
+    return;
+}
+
+// Validate that questions in Part 66 are answered
+if (isNaN(q26)) {
+    alert('Please answer all questions in Part 66.');
+    return;
+}
+
+
+// Validate that questions in Part 7 are answered
+if (isNaN(q28) || isNaN(q29) || isNaN(q31) || isNaN(q32) || isNaN(q34) || isNaN(q39) || isNaN(q42) || isNaN(q51)) {
+    alert('Please answer all questions in Part 7.');
+    return;
+}
+
+// Validate that questions in AchievementAspiration are answered
+if (isNaN(q30) || isNaN(q35) || isNaN(q36) || isNaN(q40) || isNaN(q44) || isNaN(q47) || isNaN(q48) || isNaN(q49)) {
+    alert('Please answer all questions in AchievementAspiration.');
+    return;
+}
+
+// Validate that questions in Educationalaspiration are answered
+if (isNaN(q33) || isNaN(q37) || isNaN(q38) || isNaN(q41) || isNaN(q43) || isNaN(q45) || isNaN(q46) || isNaN(q50)) {
+    alert('Please answer all questions in Educationalaspiration.');
+    return;
+}
+
+
+
+
+    // Calculate scores
+    const part2Total = q1 + q2 + q3 + q4;
+    const part3Total = q5 + q6 ;
+    const AuditorylearningstyleTotal = q7 + q10;
+    const KinestheticlearningstyleTotal = q8 + q9;
+    const part4Total = q11 + q12;
+    const ExecutivefunctionTotal = q13 + q14;
+    const MotivationandconfidenceTotal = q15 + q16;
+    const PostEducationTotal = q17 + q18 + q19 + q20;
+    const part5Total = q21 ;
+    const SelfcriticismTotal = q22 ;
+    const AnxiousWorryingTotal = q23 ;
+    const PerfectionismTotal = q24 ;
+    const IrritabilityTotal = q25 ;
+    const part6Total = q26 ;
+    const part66Total = q27;
+    const part7Total = q28 + q29 + q31 + q32 + q34 + q39 + q42 + q51;
+    const AchievementAspirationTotal = q30 + q35 + q36 + q40 + q44 + q47 + q48 + q49;
+    const EducationalaspirationTotal = q33 + q37 + q38 + q41 + q43 + q45 + q46 + q50;
+    const arr = [
+            { "title": "part2", "score": part2Total },
+            { "title": "part3", "score": part3Total },
+            { "title": "Auditorylearningstyle", "score": AuditorylearningstyleTotal },
+            { "title": "Kinestheticlearningstyle", "score": KinestheticlearningstyleTotal },
+            { "title": "part4", "score": part4Total },
+            { "title": "Executivefunction", "score": ExecutivefunctionTotal },
+            { "title": "Motivationandconfidence", "score": MotivationandconfidenceTotal },
+            { "title": "PostEducation", "score": PostEducationTotal },
+            { "title": "part5", "score": part5Total },
+            { "title": "Selfcriticism", "score": SelfcriticismTotal },
+            { "title": "AnxiousWorrying", "score": AnxiousWorryingTotal },
+            { "title": "Perfectionism", "score": PerfectionismTotal },
+            { "title": "Irritability", "score": IrritabilityTotal },
+            { "title": "part6", "score": part6Total },
+            { "title": "part66", "score": part66Total },
+            { "title": "part7", "score": part7Total },
+            { "title": "AchievementAspiration", "score": AchievementAspirationTotal },
+            { "title": "Educationalaspiration", "score": EducationalaspirationTotal }
+        ];
+
+        async function store() {
+            try {
+                const response = await fetch(`https://kascit.onrender.com/update/${globalId}`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({arr}),
+        });
+        console.log("updated")
+            } catch (error) {
+                console.error('Network error:');
+            }
+        }
+        store()
+        alert("Submitted successfully")
+    }
+    // Prepare results
+//  } const results = {
+//         name,
+//         registerNo,
+//         gender,
+//         graduate,
+//         hsc,
+//         myambition,
+//         dept,
+//         dob,
+//         questions: {
+//             q1,
+//             q2,
+//             q3,
+//             q4,
+//             q5,
+//             q6,
+//             q7,
+//             q8,
+//             q9,
+//             q10,
+//             q11,
+//             q12,
+//             q13,
+//             q14,
+//             q15,
+//             q16,
+//             q17,
+//             q18,
+//             q19,
+//             q20,
+//             q21,
+//             q22,
+//             q23,
+//             q24,
+//             q25,
+//             q26,
+//             q27,
+//             q28,
+//             q29,
+//             q30,
+//             q31,
+//             q32,
+//             q33,
+//             q34,
+//             q35,
+//             q36,
+//             q37,
+//             q38,
+//             q39,
+//             q40,
+//             q41,
+//             q42,
+//             q43,
+//             q44,
+//             q45,
+//             q46,
+//             q47,
+//             q48,
+//             q49,
+//             q50,
+//             q51
+//         },
+
+//         part2Total,
+//         part3Total,
+//         AuditorylearningstyleTotal,
+//         KinestheticlearningstyleTotal,
+//         part4Total,
+//         ExecutivefunctionTotal,
+//         MotivationandconfidenceTotal,
+//         PostEducationTotal,
+//         part5Total,
+//         SelfcriticismTotal,
+//         AnxiousWorryingTotal,
+//         PerfectionismTotal,
+//         IrritabilityTotal,
+//         part6Total,
+//         part66Total,
+//         part7Total,
+//         AchievementAspirationTotal,
+//         EducationalaspirationTotal,
+//         submissionTime: new Date().toLocaleString() // Capture current date and time
+//     };
+
+//     // Store results and redirect to result page
+//     localStorage.setItem('quizResults', JSON.stringify(results));
+//     window.location.href = 'result.html';
+// }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+            
+
+            
+
+
+            
